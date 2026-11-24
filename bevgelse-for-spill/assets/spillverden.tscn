@@ -1,0 +1,62 @@
+[gd_scene format=3 uid="uid://c40j7d78jtibk"]
+
+[ext_resource type="Texture2D" uid="uid://bx778e2c5w744" path="res://bilder/Pixel Prison Escape_ Four-Floor Night Shift.png" id="1_nvklk"]
+[ext_resource type="PackedScene" uid="uid://c1jcr5x73omw" path="res://assets/player.tscn" id="2_sm05v"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_c0rgk"]
+size = Vector2(4970.5, 64.3125)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0wpft"]
+size = Vector2(106.86626, 2359)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7sx8p"]
+size = Vector2(105, 2372)
+
+[node name="spillverden" type="Node2D" unique_id=2082505629]
+position = Vector2(-17, -3)
+scale = Vector2(0.5498916, 0.64483154)
+
+[node name="PixelPrisonEscapeFourFloorNightShift" type="Sprite2D" parent="." unique_id=1860726631]
+position = Vector2(34.12499, 17.687483)
+scale = Vector2(2.2844152, 3.3047304)
+texture = ExtResource("1_nvklk")
+
+[node name="player" parent="." unique_id=1214809717 instance=ExtResource("2_sm05v")]
+position = Vector2(1820, 952)
+up_direction = Vector2(-0.23004268, -0.97318053)
+
+[node name="Camera2D" parent="player" index="2" unique_id=848979006]
+scale = Vector2(-1.9262304, -0.10842994)
+zoom = Vector2(0.81, 1.7)
+limit_left = -1360
+limit_top = -760
+limit_right = 1360
+limit_bottom = 770
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1582463218]
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="StaticBody2D" unique_id=1763313344]
+position = Vector2(47, -535)
+shape = SubResource("RectangleShape2D_c0rgk")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D" unique_id=1828371479]
+position = Vector2(28.75, 15.84375)
+shape = SubResource("RectangleShape2D_c0rgk")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D" unique_id=1717271834]
+position = Vector2(27, 580)
+shape = SubResource("RectangleShape2D_c0rgk")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=124342916]
+position = Vector2(39, 1153)
+shape = SubResource("RectangleShape2D_c0rgk")
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="StaticBody2D" unique_id=1316058213]
+position = Vector2(2564.567, 7.5)
+shape = SubResource("RectangleShape2D_0wpft")
+
+[node name="CollisionShape2D6" type="CollisionShape2D" parent="StaticBody2D" unique_id=350814332]
+position = Vector2(-2496, 8)
+shape = SubResource("RectangleShape2D_7sx8p")
+
+[editable path="player"]
