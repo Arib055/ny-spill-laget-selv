@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://dx08cya534cpq"]
+
+[ext_resource type="Script" uid="uid://b1cvd50i11nrr" path="res://assets/heis.gd" id="1_45b7g"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_76uxc"]
+size = Vector2(272.78125, 316.3617)
+
+[node name="heis" type="Area2D" unique_id=1123445472]
+script = ExtResource("1_45b7g")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1146168572]
+position = Vector2(16.366821, -9.304749)
+shape = SubResource("RectangleShape2D_76uxc")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

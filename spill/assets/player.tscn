@@ -62,7 +62,7 @@ animations = [{
 }],
 "loop": 1,
 "name": &"run",
-"speed": 10.0
+"speed": 20.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -73,6 +73,10 @@ animations = [{
 "speed": 10.0
 }]
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_c0rgk"]
+radius = 65.0
+height = 338.0
+
 [node name="player" type="CharacterBody2D" unique_id=1214809717]
 script = ExtResource("1_3mip4")
 
@@ -80,13 +84,16 @@ script = ExtResource("1_3mip4")
 position = Vector2(-0.75, 0)
 scale = Vector2(1.005535, 1)
 sprite_frames = SubResource("SpriteFrames_fdrta")
-animation = &"stand"
+animation = &"run"
 autoplay = "run"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=781931749]
+position = Vector2(-27, -2)
+shape = SubResource("CapsuleShape2D_c0rgk")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=848979006]
 position = Vector2(0, -65)
-zoom = Vector2(0.84, 1.14)
+zoom = Vector2(0.84, 0.84)
 limit_left = -1077
 limit_right = 10000001
+drag_vertical_enabled = true

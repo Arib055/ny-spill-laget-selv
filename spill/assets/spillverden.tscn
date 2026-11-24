@@ -2,9 +2,10 @@
 
 [ext_resource type="Texture2D" uid="uid://bx778e2c5w744" path="res://bilder/Pixel Prison Escape_ Four-Floor Night Shift.png" id="1_nvklk"]
 [ext_resource type="PackedScene" uid="uid://c1jcr5x73omw" path="res://assets/player.tscn" id="2_sm05v"]
+[ext_resource type="PackedScene" uid="uid://dx08cya534cpq" path="res://assets/heis.tscn" id="3_sm05v"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_c0rgk"]
-size = Vector2(4970.5, 64.3125)
+size = Vector2(5009.384, 64.3125)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0wpft"]
 size = Vector2(106.86626, 2359)
@@ -22,21 +23,22 @@ scale = Vector2(2.2844152, 3.3047304)
 texture = ExtResource("1_nvklk")
 
 [node name="player" parent="." unique_id=1214809717 instance=ExtResource("2_sm05v")]
-position = Vector2(1820, 952)
+position = Vector2(2127.6921, 949.085)
 up_direction = Vector2(-0.23004268, -0.97318053)
 
 [node name="Camera2D" parent="player" index="2" unique_id=848979006]
+position = Vector2(-38.18923, -74.43795)
 scale = Vector2(-1.9262304, -0.10842994)
-zoom = Vector2(0.81, 1.7)
-limit_left = -1360
+zoom = Vector2(1.81, 1.81)
+limit_left = -1352
 limit_top = -760
-limit_right = 1360
-limit_bottom = 770
+limit_right = 1359
+limit_bottom = 773
 
 [node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1582463218]
 
 [node name="CollisionShape2D4" type="CollisionShape2D" parent="StaticBody2D" unique_id=1763313344]
-position = Vector2(47, -535)
+position = Vector2(14.548323, -536.5743)
 shape = SubResource("RectangleShape2D_c0rgk")
 
 [node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D" unique_id=1828371479]
@@ -44,11 +46,11 @@ position = Vector2(28.75, 15.84375)
 shape = SubResource("RectangleShape2D_c0rgk")
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D" unique_id=1717271834]
-position = Vector2(27, 580)
+position = Vector2(27, 580.00006)
 shape = SubResource("RectangleShape2D_c0rgk")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=124342916]
-position = Vector2(39, 1153)
+position = Vector2(29.096645, 1164.6453)
 shape = SubResource("RectangleShape2D_c0rgk")
 
 [node name="CollisionShape2D5" type="CollisionShape2D" parent="StaticBody2D" unique_id=1316058213]
@@ -58,5 +60,26 @@ shape = SubResource("RectangleShape2D_0wpft")
 [node name="CollisionShape2D6" type="CollisionShape2D" parent="StaticBody2D" unique_id=350814332]
 position = Vector2(-2496, 8)
 shape = SubResource("RectangleShape2D_7sx8p")
+
+[node name="heis" parent="." unique_id=1123445472 instance=ExtResource("3_sm05v")]
+position = Vector2(-2018.5798, 958.3899)
+
+[node name="heis2" parent="." unique_id=1171254920 instance=ExtResource("3_sm05v")]
+position = Vector2(-2018.5796, 387.69815)
+direction = -1
+
+[node name="heis3" parent="." unique_id=421727910 instance=ExtResource("3_sm05v")]
+position = Vector2(2058.5876, 395.45215)
+
+[node name="heis4" parent="." unique_id=728593667 instance=ExtResource("3_sm05v")]
+position = Vector2(2056.7693, -165.93484)
+direction = -1
+
+[node name="heis5" parent="." unique_id=1974110019 instance=ExtResource("3_sm05v")]
+position = Vector2(-2025.8538, -165.93481)
+
+[node name="heis6" parent="." unique_id=2058064760 instance=ExtResource("3_sm05v")]
+position = Vector2(-2027.6724, -722.6694)
+direction = -1
 
 [editable path="player"]
