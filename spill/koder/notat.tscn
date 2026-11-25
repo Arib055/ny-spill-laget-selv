@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://0he8mes53bke"]
+
+[sub_resource type="GDScript" id="GDScript_4kgqd"]
+script/source = "extends Area2D
+
+var klar = false
+
+func _ready():
+	$Label.hide()
+
+func _on_body_entered(body: Node2D) -> void:
+	klar = true
+
+func _on_body_exited(body: Node2D) -> void:
+	klar = false
+	$Label.hide()
+
+func _physics_process(_delta):
+	if Input.is_action_just_pressed(\"use\") and klar == true:
+		$Label.visible = not $Label.visible
+"
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_c0rgk"]
+size = Vector2(127, 138)
+
+[node name="notat" type="Area2D" unique_id=114167729]
+script = SubResource("GDScript_4kgqd")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1977322705]
+position = Vector2(53.5, 59)
+shape = SubResource("RectangleShape2D_c0rgk")
