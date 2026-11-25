@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://c40j7d78jtibk"]
 
 [ext_resource type="Texture2D" uid="uid://bx778e2c5w744" path="res://bilder/Pixel Prison Escape_ Four-Floor Night Shift.png" id="1_nvklk"]
-[ext_resource type="PackedScene" uid="uid://c1jcr5x73omw" path="res://assets/player.tscn" id="2_sm05v"]
-[ext_resource type="PackedScene" uid="uid://dx08cya534cpq" path="res://assets/heis.tscn" id="3_sm05v"]
+[ext_resource type="PackedScene" uid="uid://c1jcr5x73omw" path="res://spill/koder/player.tscn" id="2_sm05v"]
+[ext_resource type="PackedScene" uid="uid://dx08cya534cpq" path="res://spill/koder/heis.tscn" id="3_sm05v"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_c0rgk"]
 size = Vector2(5009.384, 64.3125)
