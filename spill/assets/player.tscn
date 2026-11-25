@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://c1jcr5x73omw"]
 
-[ext_resource type="Script" uid="uid://kj608rnbliip" path="res://assets/player.gd" id="1_3mip4"]
+[ext_resource type="Script" uid="uid://kj608rnbliip" path="res://koder/player.gd" id="1_3mip4"]
 [ext_resource type="Texture2D" uid="uid://c4yj4dm54n1of" path="res://bilder/Trump-Inspired Prisoner Pixel Sprite Sheet.png" id="2_3mip4"]
 [ext_resource type="Texture2D" uid="uid://b1rtsknmw56oi" path="res://bilder/Left-Facing Prisoner Pixel Sprite Sheet.png" id="3_insbl"]
 

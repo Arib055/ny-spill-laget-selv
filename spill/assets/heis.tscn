@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://dx08cya534cpq"]
 
-[ext_resource type="Script" uid="uid://b1cvd50i11nrr" path="res://assets/heis.gd" id="1_45b7g"]
+[ext_resource type="Script" uid="uid://b1cvd50i11nrr" path="res://koder/heis.gd" id="1_45b7g"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_76uxc"]
 size = Vector2(272.78125, 316.3617)
