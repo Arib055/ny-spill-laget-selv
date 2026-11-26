@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://80h6y41ftrd6" path="res://assets/Notat.tscn" id="4_7buf0"]
 [ext_resource type="PackedScene" uid="uid://cc6gfxihuetks" path="res://assets/door.tscn" id="5_gtr1u"]
 [ext_resource type="PackedScene" uid="uid://bmmkqa2h7qtof" path="res://assets/laser.tscn" id="7_7atcc"]
+[ext_resource type="PackedScene" uid="uid://blha6b5l0se5x" path="res://assets/knapp.tscn" id="8_20w2q"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_c0rgk"]
 size = Vector2(5009.384, 64.3125)
@@ -101,5 +102,10 @@ scale = Vector2(0.49672472, 0.29757193)
 [node name="Laser" parent="." unique_id=1543614872 instance=ExtResource("7_7atcc")]
 position = Vector2(-554.6548, -198.50146)
 scale = Vector2(1.5900435, 1.5732338)
+script = null
+
+[node name="Knapp" parent="." unique_id=196350313 instance=ExtResource("8_20w2q")]
+position = Vector2(683.7711, -241.92365)
+scale = Vector2(1.1247919, 1)
 
 [editable path="player"]

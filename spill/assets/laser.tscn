@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://bmmkqa2h7qtof"]
 
-[ext_resource type="Script" uid="uid://bnof5ua6642v3" path="res://assets/laser.gd" id="1_oo50v"]
+[ext_resource type="Script" uid="uid://duhnjdgra4tax" path="res://koder/laser.gd" id="1_oo50v"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_w32p1"]
 size = Vector2(679, 32)
