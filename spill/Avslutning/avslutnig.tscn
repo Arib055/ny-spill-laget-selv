@@ -1,8 +1,10 @@
 [gd_scene format=3 uid="uid://cn8hv5rd2a6sm"]
 
 [ext_resource type="VideoStream" uid="uid://bnyi0cu8txen6" path="res://Avslutning/Avsluning.ogv" id="1_0547i"]
+[ext_resource type="Script" uid="uid://g26l0onemt4m" path="res://Avslutning/restart.gd" id="2_restart"]
 
 [node name="avslutnig" type="Node2D" unique_id=930265331]
+script = ExtResource("2_restart")
 
 [node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="." unique_id=331241013]
 offset_left = -74.00001
@@ -12,3 +14,25 @@ offset_bottom = 932.0
 scale = Vector2(0.68706733, 0.8755636)
 stream = ExtResource("1_0547i")
 autoplay = true
+
+[node name="RestartLayer" type="CanvasLayer" parent="." unique_id=663035555]
+
+[node name="Overlay" type="Control" parent="RestartLayer" unique_id=1944382508]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="RestartButton" type="Button" parent="RestartLayer/Overlay" unique_id=1583531929]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -140.0
+offset_top = 24.0
+offset_right = -24.0
+offset_bottom = 68.0
+grow_horizontal = 0
+text = "Restart"

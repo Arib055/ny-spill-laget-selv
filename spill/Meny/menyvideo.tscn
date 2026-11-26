@@ -143,3 +143,26 @@ scale = Vector2(0.0837791, 0.109353445)
 theme_override_font_sizes/font_size = 24
 action_mode = 0
 text = "Back"
+
+[node name="SkipLayer" type="CanvasLayer" parent="." unique_id=2021978532]
+
+[node name="Overlay" type="Control" parent="SkipLayer" unique_id=1053497483]
+layout_mode = 3
+mouse_filter = 2
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="SkipButton" type="Button" parent="SkipLayer/Overlay" unique_id=728866229]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -140.0
+offset_top = 24.0
+offset_right = -24.0
+offset_bottom = 68.0
+grow_horizontal = 0
+text = "Skip"
