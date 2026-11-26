@@ -1,25 +1,27 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1795610087
+::res://::1795678791
 icon.svg::CompressedTexture2D::1531910475645781997::1795606279::1795607216::1::::<><><>0<>0<>720d5376ba15260ef04a1872de6326db<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://assets/::1795610057
+::res://assets/::1795677638
 game.tscn::PackedScene::5777717298121004376::1795606279::0::1::::<><><>0<>0<><>::
 heis.gd::GDScript::4216741402739753399::1795606279::0::1::::<>Area2D<><>0<>0<><>::
-heis.tscn::PackedScene::8827223392916671742::1795609906::0::1::::<><><>0<>0<><>::uid://b1cvd50i11nrr::::res://assets/heis.gd
+heis.tscn::PackedScene::8827223392916671742::1795677638::0::1::::<><><>0<>0<><>::
+notat.gd::GDScript::7243485923903972162::1795677638::0::1::::<>Area2D<><>0<>0<><>::
+Notat.tscn::PackedScene::2368322969015480881::1795677638::0::1::::<><><>0<>0<><>::uid://dbg2fjbn604fm::::res://assets/notat.gd<>uid://bqa70gu2a633j::::res://bilder/Pixel Art Note with 4554.png
 player.gd::GDScript::722396467914913159::1795606279::0::1::::<>CharacterBody2D<><>0<>0<><>::
-player.tscn::PackedScene::194602473734306470::1795606279::0::1::::<><><>0<>0<><>::uid://kj608rnbliip::::res://assets/player.gd<>uid://c4yj4dm54n1of::::res://bilder/Trump-Inspired Prisoner Pixel Sprite Sheet.png<>uid://b1rtsknmw56oi::::res://bilder/Left-Facing Prisoner Pixel Sprite Sheet.png
-spillverden.tscn::PackedScene::6860531083596434324::1795610057::0::1::::<><><>0<>0<><>::uid://bx778e2c5w744::::res://bilder/Pixel Prison Escape_ Four-Floor Night Shift.png<>uid://c1jcr5x73omw::::res://spill/koder/player.tscn<>uid://dx08cya534cpq::::res://spill/koder/heis.tscn
-testlevel.tscn::PackedScene::663847550663437440::1795609941::0::1::::<><><>0<>0<><>::uid://c1jcr5x73omw::::res://koder/player.tscn
-::res://bilder/::1795607217
+player.tscn::PackedScene::194602473734306470::1795677638::0::1::::<><><>0<>0<><>::
+spillverden.tscn::PackedScene::6860531083596434324::1795677638::0::1::::<><><>0<>0<><>::uid://bx778e2c5w744::::res://bilder/Pixel Prison Escape_ Four-Floor Night Shift.png
+testlevel.tscn::PackedScene::663847550663437440::1795677638::0::1::::<><><>0<>0<><>::uid://c1jcr5x73omw::::res://assets/player.tscn
+::res://bilder/::1795677651
 Left-Facing Prisoner Pixel Sprite Sheet.png::CompressedTexture2D::4247611353145608944::1795606279::1795607217::1::::<><><>0<>0<>da87133d5acc95509e2543f009d089ed<>res://.godot/imported/Left-Facing Prisoner Pixel Sprite Sheet.png-0b889fb6f965f44de0888d8e102ff1e8.ctex::
+Pixel Art Note with 4554.png::CompressedTexture2D::3511430117781965833::1795677638::1795677651::1::::<><><>0<>0<>e713365dde36acf77e9b94d0a28b10b1<>res://.godot/imported/Pixel Art Note with 4554.png-4afed7893d6c6e502c5aaa3ff74b83e2.ctex::
 Pixel Prison Escape_ Four-Floor Night Shift.png::CompressedTexture2D::4068826302400130567::1795606279::1795607217::1::::<><><>0<>0<>4948184f0f6f02b821f0be948fa43921<>res://.godot/imported/Pixel Prison Escape_ Four-Floor Night Shift.png-9021427f09ca21450dae405d871b3246.ctex::
 Trump-Inspired Prisoner Pixel Sprite Sheet.png::CompressedTexture2D::6858461317454777409::1795606279::1795607217::1::::<><><>0<>0<>be6f6511ea4f0ceb87aabeeea1c1568b<>res://.godot/imported/Trump-Inspired Prisoner Pixel Sprite Sheet.png-11cad6116211af85d4f0db9c8fecab01.ctex::
-::res://Meny/::1795609909
+::res://Meny/::1795677659
 Backhistory.ogv::VideoStreamTheora::1073747672472688521::1795607946::0::1::::<><><>0<>0<><>::
 menyvideo.gd::GDScript::2647453908045842385::1795609243::0::1::::<>Node2D<><>0<>0<><>::
-menyvideo.tscn::PackedScene::6975517843318301481::1795609909::0::1::::<><><>0<>0<><>::uid://bdypgdacs8jnl::::res://Meny/menyvideo.gd<>uid://caf0tnlttuj77::::res://Meny/Mørkt fengselskompleks med tittelen PRESIDENT ESCAPE.png<>uid://pkep5glju210::::res://Meny/Backhistory.ogv
+menyvideo.tscn::PackedScene::6975517843318301481::1795677659::0::1::::<><><>0<>0<><>::uid://bdypgdacs8jnl::::res://Meny/menyvideo.gd<>uid://caf0tnlttuj77::::res://Meny/Mørkt fengselskompleks med tittelen PRESIDENT ESCAPE.png<>uid://pkep5glju210::::res://Meny/Backhistory.ogv
 Mørkt fengselskompleks med tittelen PRESIDENT ESCAPE.png::CompressedTexture2D::4784715811745717108::1795607844::1795607845::1::::<><><>0<>0<>fea3965bb12769e58a2a63e5bdf383e9<>res://.godot/imported/Mørkt fengselskompleks med tittelen PRESIDENT ESCAPE.png-e63028051d62b9afe16c788d738d6445.ctex::
-::res://spill/::1795609941
-::res://spill/koder/::1795609941
-heis.tscn::PackedScene::8827223392916671742::1795609941::0::1::::<><><>0<>0<><>::uid://b1cvd50i11nrr::::res://assets/heis.gd
-notat.tscn::PackedScene::1769474171717604572::1795609941::0::1::::<><><>0<>0<><>::
-player.tscn::PackedScene::194602473734306470::1795609941::0::1::::<><><>0<>0<><>::uid://kj608rnbliip::::res://assets/player.gd<>uid://c4yj4dm54n1of::::res://bilder/Trump-Inspired Prisoner Pixel Sprite Sheet.png<>uid://b1rtsknmw56oi::::res://bilder/Left-Facing Prisoner Pixel Sprite Sheet.png
+::res://spill/::1795677638
+::res://spill/koder/::1795677638
+heis.gd::GDScript::4216741402739753399::1795677638::0::1::::<>Area2D<><>0<>0<><>::
+player.gd::GDScript::722396467914913159::1795677638::0::1::::<>CharacterBody2D<><>0<>0<><>::
