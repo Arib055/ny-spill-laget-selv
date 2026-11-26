@@ -67,7 +67,7 @@ offset_top = 486.0
 offset_right = 724.0
 offset_bottom = 546.0
 theme_override_styles/normal = SubResource("StyleBoxFlat_ig7tw")
-text = "Credits"
+text = "Credits-Information"
 
 [node name="PlayScreen" type="ColorRect" parent="MainMenu" unique_id=1694987754]
 visible = false
@@ -93,22 +93,21 @@ offset_bottom = 600.0
 text = "Back"
 
 [node name="CreditsScreen" type="ColorRect" parent="MainMenu" unique_id=1728911713]
-visible = false
 layout_mode = 0
 offset_left = -12.0
 offset_top = -22.0
 offset_right = 31.16502
 offset_bottom = 19.631462
-scale = Vector2(27.313782, 16.381842)
+scale = Vector2(27.533741, 16.839598)
 color = Color(0.3647059, 0.3647059, 0.3647059, 1)
 
 [node name="Names" type="Label" parent="MainMenu/CreditsScreen" unique_id=705284686]
 layout_mode = 0
-offset_left = 15.706358
-offset_top = 6.5316224
-offset_right = 230.70636
-offset_bottom = 273.53162
-scale = Vector2(0.06161842, 0.072677925)
+offset_left = 1.1349581
+offset_top = 19.961126
+offset_right = 216.13496
+offset_bottom = 286.96112
+scale = Vector2(0.06161842, 0.07156148)
 theme_override_font_sizes/font_size = 30
 text = "Maxim-Coding
 Hasan-Coding
@@ -116,6 +115,18 @@ Arib-Coding
 William-Design
 Lucas-Design
 Lewi-Design"
+
+[node name="Control" type="Label" parent="MainMenu/CreditsScreen" unique_id=243114371]
+layout_mode = 0
+offset_left = 1.0983466
+offset_top = 1.52608
+offset_right = 135.09834
+offset_bottom = 73.52608
+scale = Vector2(0.17066848, 0.21663968)
+theme_override_font_sizes/font_size = 15
+text = "E-Interaction
+← for Å gå venstre
+→ for å gå Høyre"
 
 [node name="CreditsBackButton" type="Button" parent="MainMenu/CreditsScreen" unique_id=1305990696]
 layout_mode = 1
