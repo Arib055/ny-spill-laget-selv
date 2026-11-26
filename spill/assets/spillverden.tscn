@@ -99,13 +99,14 @@ position = Vector2(-358.25244, 286.89664)
 position = Vector2(1663.9644, -584.6488)
 scale = Vector2(0.49672472, 0.29757193)
 
-[node name="Laser" parent="." unique_id=1543614872 instance=ExtResource("7_7atcc")]
-position = Vector2(-554.6548, -198.50146)
-scale = Vector2(1.5900435, 1.5732338)
-script = null
-
 [node name="Knapp" parent="." unique_id=196350313 instance=ExtResource("8_20w2q")]
-position = Vector2(683.7711, -241.92365)
-scale = Vector2(1.1247919, 1)
+position = Vector2(654.6745, -266.73633)
+scale = Vector2(2.0947857, 1.615784)
+
+[node name="Laser" parent="." unique_id=1543614872 instance=ExtResource("7_7atcc")]
+position = Vector2(-541.925, -217.11098)
+scale = Vector2(1.5441382, -2.1023903)
+
+[connection signal="laser" from="Knapp" to="Laser" method="_on_knapp_laser"]
 
 [editable path="player"]
