@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://blha6b5l0se5x"]
+
+[ext_resource type="Script" uid="uid://bnof5ua6642v3" path="res://koder/Knapp.gd" id="1_rvrv2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_c0rgk"]
+size = Vector2(88, 99)
+
+[node name="Knapp" type="Area2D" unique_id=196350313]
+script = ExtResource("1_rvrv2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1760432909]
+position = Vector2(34, 39.5)
+shape = SubResource("RectangleShape2D_c0rgk")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]
