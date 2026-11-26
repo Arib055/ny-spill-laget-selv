@@ -24,10 +24,7 @@ func _physics_process(_delta):
 
 func sjekk_kode(kode):
 	if kode == "4554":
-		$LineEdit.max_length = 0
-		$LineEdit.text = "Riktig kode"
-		$LineEdit.editable = false
-		get_tree().paused = true
+		get_tree().change_scene_to_file("res://Avslutning/avslutnig.tscn")
 	else:
 		$LineEdit.clear()
 		$LineEdit.placeholder_text = "Feil kode! Prøv på nytt"

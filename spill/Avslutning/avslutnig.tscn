@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://cn8hv5rd2a6sm"]
+
+[ext_resource type="VideoStream" uid="uid://bnyi0cu8txen6" path="res://Avslutning/Avsluning.ogv" id="1_0547i"]
+
+[node name="avslutnig" type="Node2D" unique_id=930265331]
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="." unique_id=331241013]
+offset_right = 40.0
+offset_bottom = 40.0
+stream = ExtResource("1_0547i")
+autoplay = true
