@@ -1,8 +1,14 @@
 [gd_scene format=3 uid="uid://c40j7d78jtibk"]
 
 [ext_resource type="Texture2D" uid="uid://bx778e2c5w744" path="res://bilder/Pixel Prison Escape_ Four-Floor Night Shift.png" id="1_nvklk"]
+<<<<<<< HEAD:spill/assets/spillverden.tscn
+[ext_resource type="PackedScene" uid="uid://c1jcr5x73omw" path="res://assets/player.tscn" id="2_sm05v"]
+[ext_resource type="PackedScene" uid="uid://dx08cya534cpq" path="res://assets/heis.tscn" id="3_sm05v"]
+[ext_resource type="PackedScene" uid="uid://80h6y41ftrd6" path="res://assets/Notat.tscn" id="4_7buf0"]
+=======
 [ext_resource type="PackedScene" uid="uid://c1jcr5x73omw" path="res://spill/koder/player.tscn" id="2_sm05v"]
 [ext_resource type="PackedScene" uid="uid://dx08cya534cpq" path="res://spill/koder/heis.tscn" id="3_sm05v"]
+>>>>>>> ebabb436105d9787e198d05d9a8bd9a9183d1ac7:assets/spillverden.tscn
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_c0rgk"]
 size = Vector2(5009.384, 64.3125)
@@ -81,5 +87,8 @@ position = Vector2(-2025.8538, -165.93481)
 [node name="heis6" parent="." unique_id=2058064760 instance=ExtResource("3_sm05v")]
 position = Vector2(-2027.6724, -722.6694)
 direction = -1
+
+[node name="Notat" parent="." unique_id=1494679555 instance=ExtResource("4_7buf0")]
+position = Vector2(-350.97827, 282.24426)
 
 [editable path="player"]
