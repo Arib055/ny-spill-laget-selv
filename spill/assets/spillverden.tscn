@@ -3,14 +3,16 @@
 [ext_resource type="Texture2D" uid="uid://bx778e2c5w744" path="res://bilder/Pixel Prison Escape_ Four-Floor Night Shift.png" id="1_nvklk"]
 [ext_resource type="Texture2D" uid="uid://cu3svp3mquxtq" path="res://bilder/Pixel-Art Prison Building.png" id="2_qwvho"]
 [ext_resource type="PackedScene" uid="uid://c1jcr5x73omw" path="res://assets/player.tscn" id="2_sm05v"]
+[ext_resource type="Texture2D" uid="uid://bkh2ysiqdp2yt" path="res://bilder/Pixel-Art Security Camera Layout.png" id="3_abss8"]
 [ext_resource type="PackedScene" uid="uid://dx08cya534cpq" path="res://assets/heis.tscn" id="3_sm05v"]
 [ext_resource type="PackedScene" uid="uid://80h6y41ftrd6" path="res://assets/Notat.tscn" id="4_7buf0"]
 [ext_resource type="PackedScene" uid="uid://cc6gfxihuetks" path="res://assets/door.tscn" id="5_gtr1u"]
 [ext_resource type="PackedScene" uid="uid://bmmkqa2h7qtof" path="res://assets/laser.tscn" id="7_7atcc"]
 [ext_resource type="PackedScene" uid="uid://blha6b5l0se5x" path="res://assets/knapp.tscn" id="8_20w2q"]
+[ext_resource type="PackedScene" uid="uid://byb1vlytxwd26" path="res://assets/kamera.tscn" id="9_hqivu"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_c0rgk"]
-size = Vector2(5009.384, 64.3125)
+size = Vector2(5001.2695, 50.76947)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0wpft"]
 size = Vector2(106.86626, 2359)
@@ -32,6 +34,11 @@ position = Vector2(27.19519, 26.363562)
 scale = Vector2(2.2975323, 3.3157833)
 texture = ExtResource("2_qwvho")
 
+[node name="PixelArtSecurityCameraLayout" type="Sprite2D" parent="." unique_id=326505408]
+position = Vector2(27.278105, 34.11744)
+scale = Vector2(2.296619, 3.2986472)
+texture = ExtResource("3_abss8")
+
 [node name="player" parent="." unique_id=1214809717 instance=ExtResource("2_sm05v")]
 position = Vector2(2127.6921, 952.1867)
 up_direction = Vector2(-0.23004268, -0.97318053)
@@ -52,11 +59,11 @@ position = Vector2(14.548323, -536.5743)
 shape = SubResource("RectangleShape2D_c0rgk")
 
 [node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D" unique_id=1828371479]
-position = Vector2(28.75, 15.84375)
+position = Vector2(23.641024, 23.26189)
 shape = SubResource("RectangleShape2D_c0rgk")
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D" unique_id=1717271834]
-position = Vector2(27, 580.00006)
+position = Vector2(31.057009, 586.7718)
 shape = SubResource("RectangleShape2D_c0rgk")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=124342916]
@@ -106,6 +113,22 @@ scale = Vector2(2.0947857, 1.615784)
 [node name="Laser" parent="." unique_id=1543614872 instance=ExtResource("7_7atcc")]
 position = Vector2(-552.83624, -215.56018)
 scale = Vector2(1.5441382, -1.401714)
+
+[node name="kamera" parent="." unique_id=1907331624 instance=ExtResource("9_hqivu")]
+position = Vector2(-732.8717, 928.92474)
+scale = Vector2(1.0441799, 0.8259803)
+
+[node name="kamera2" parent="." unique_id=943515357 instance=ExtResource("9_hqivu")]
+position = Vector2(740.14594, 924.2724)
+scale = Vector2(-1.0258994, 0.8483615)
+
+[node name="kamera3" parent="." unique_id=1506733156 instance=ExtResource("9_hqivu")]
+position = Vector2(58.193295, 361.3347)
+scale = Vector2(1.166793, 0.81455076)
+
+[node name="kamera4" parent="." unique_id=662880323 instance=ExtResource("9_hqivu")]
+position = Vector2(1554.8519, -761.43915)
+scale = Vector2(-0.67181355, 0.77762246)
 
 [connection signal="laser" from="Knapp" to="Laser" method="_on_knapp_laser"]
 
