@@ -5,6 +5,13 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_w32p1"]
 size = Vector2(679, 32)
 
+[sub_resource type="Gradient" id="Gradient_oo50v"]
+offsets = PackedFloat32Array(0.23192771, 0.45180723, 0.810241)
+colors = PackedColorArray(1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_7sx8p"]
+gradient = SubResource("Gradient_oo50v")
+
 [node name="Laser" type="Area2D" unique_id=1543614872]
 script = ExtResource("1_oo50v")
 
@@ -12,7 +19,14 @@ script = ExtResource("1_oo50v")
 position = Vector2(329.5, -6)
 shape = SubResource("RectangleShape2D_w32p1")
 
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1493383859]
+position = Vector2(331.80957, -6.9659796)
+rotation = 1.5707964
+scale = Vector2(0.07839075, 648.61914)
+texture = SubResource("GradientTexture1D_7sx8p")
+
 [node name="Line2D" type="Line2D" parent="." unique_id=1106345858]
+visible = false
 points = PackedVector2Array(6, -7, 648, -5)
 default_color = Color(0.76862746, 0, 0, 1)
 

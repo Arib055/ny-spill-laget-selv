@@ -2,7 +2,6 @@
 
 [ext_resource type="Script" uid="uid://kj608rnbliip" path="res://koder/player.gd" id="1_3mip4"]
 [ext_resource type="Texture2D" uid="uid://c4yj4dm54n1of" path="res://bilder/Trump-Inspired Prisoner Pixel Sprite Sheet.png" id="2_3mip4"]
-[ext_resource type="Texture2D" uid="uid://b1rtsknmw56oi" path="res://bilder/Left-Facing Prisoner Pixel Sprite Sheet.png" id="3_insbl"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_insbl"]
 atlas = ExtResource("2_3mip4")
@@ -32,9 +31,9 @@ region = Rect2(1379, 0, 271, 362)
 atlas = ExtResource("2_3mip4")
 region = Rect2(1650, 0, 271, 362)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_cn88q"]
-atlas = ExtResource("3_insbl")
-region = Rect2(295, 362, 271, 362)
+[sub_resource type="AtlasTexture" id="AtlasTexture_3mip4"]
+atlas = ExtResource("2_3mip4")
+region = Rect2(271, 362, 271, 362)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_fdrta"]
 animations = [{
@@ -66,7 +65,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_cn88q")
+"texture": SubResource("AtlasTexture_3mip4")
 }],
 "loop": 1,
 "name": &"stand",
@@ -84,7 +83,7 @@ script = ExtResource("1_3mip4")
 position = Vector2(-0.75, 0)
 scale = Vector2(1.005535, 1)
 sprite_frames = SubResource("SpriteFrames_fdrta")
-animation = &"run"
+animation = &"stand"
 autoplay = "run"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=781931749]

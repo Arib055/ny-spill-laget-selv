@@ -104,8 +104,8 @@ position = Vector2(654.6745, -266.73633)
 scale = Vector2(2.0947857, 1.615784)
 
 [node name="Laser" parent="." unique_id=1543614872 instance=ExtResource("7_7atcc")]
-position = Vector2(-541.925, -217.11098)
-scale = Vector2(1.5441382, -2.1023903)
+position = Vector2(-552.83624, -215.56018)
+scale = Vector2(1.5441382, -1.401714)
 
 [connection signal="laser" from="Knapp" to="Laser" method="_on_knapp_laser"]
 
