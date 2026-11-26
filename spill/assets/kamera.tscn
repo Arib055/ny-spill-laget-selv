@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://byb1vlytxwd26"]
+
+[ext_resource type="Script" uid="uid://px7qpiwgmkdp" path="res://assets/kamera.gd" id="1_h3qni"]
+
+[node name="kamera" type="Area2D" unique_id=1907331624]
+script = ExtResource("1_h3qni")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=1497309210]
+polygon = PackedVector2Array(99, -200, 564, 240, 98, 237)
+
+[node name="Polygon2D" type="Polygon2D" parent="." unique_id=1578193199]
+color = Color(1, 0.08333331, 0, 0.45882353)
+polygon = PackedVector2Array(97, -204, 99, 238, 563, 240)

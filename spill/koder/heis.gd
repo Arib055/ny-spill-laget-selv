@@ -15,4 +15,4 @@ func _on_body_exited(body: Node2D) -> void:
 	
 func _physics_process(_delta):
 	if Input.is_action_just_pressed("use") and klar == true:
-		player.position.y += -572*direction
+		player.position.y += -570 * direction
