@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://80h6y41ftrd6"]
 
-[ext_resource type="Script" uid="uid://dbg2fjbn604fm" path="res://assets/notat.gd" id="1_oh1h6"]
+[ext_resource type="Script" uid="uid://dbg2fjbn604fm" path="res://koder/notat.gd" id="1_oh1h6"]
 [ext_resource type="Texture2D" uid="uid://bqa70gu2a633j" path="res://bilder/Pixel Art Note with 4554.png" id="2_k1ryh"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_c0rgk"]

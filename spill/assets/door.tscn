@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://cc6gfxihuetks"]
+
+[ext_resource type="Script" uid="uid://wvr08eblweib" path="res://koder/door.gd" id="1_7g2qk"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_c0rgk"]
+size = Vector2(1180, 1425)
+
+[node name="Door" type="Area2D" unique_id=1737742625]
+script = ExtResource("1_7g2qk")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=908118815]
+position = Vector2(761, -722.5)
+shape = SubResource("RectangleShape2D_c0rgk")
+
+[node name="LineEdit" type="LineEdit" parent="." unique_id=1940197350]
+offset_left = 228.0
+offset_top = -1029.0
+offset_right = 1246.0
+offset_bottom = -651.0
+theme_override_font_sizes/font_size = 90
+placeholder_text = "Skriv inn koden"
+alignment = 1
+max_length = 4

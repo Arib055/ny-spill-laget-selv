@@ -1,9 +1,12 @@
 [gd_scene format=3 uid="uid://c40j7d78jtibk"]
 
 [ext_resource type="Texture2D" uid="uid://bx778e2c5w744" path="res://bilder/Pixel Prison Escape_ Four-Floor Night Shift.png" id="1_nvklk"]
+[ext_resource type="Texture2D" uid="uid://cu3svp3mquxtq" path="res://bilder/Pixel-Art Prison Building.png" id="2_qwvho"]
 [ext_resource type="PackedScene" uid="uid://c1jcr5x73omw" path="res://assets/player.tscn" id="2_sm05v"]
 [ext_resource type="PackedScene" uid="uid://dx08cya534cpq" path="res://assets/heis.tscn" id="3_sm05v"]
 [ext_resource type="PackedScene" uid="uid://80h6y41ftrd6" path="res://assets/Notat.tscn" id="4_7buf0"]
+[ext_resource type="PackedScene" uid="uid://cc6gfxihuetks" path="res://assets/door.tscn" id="5_gtr1u"]
+[ext_resource type="PackedScene" uid="uid://bmmkqa2h7qtof" path="res://assets/laser.tscn" id="7_7atcc"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_c0rgk"]
 size = Vector2(5009.384, 64.3125)
@@ -22,6 +25,11 @@ scale = Vector2(0.5498916, 0.64483154)
 position = Vector2(34.12499, 17.687483)
 scale = Vector2(2.2844152, 3.3047304)
 texture = ExtResource("1_nvklk")
+
+[node name="PixelArtPrisonBuilding" type="Sprite2D" parent="." unique_id=485881799]
+position = Vector2(27.19519, 26.363562)
+scale = Vector2(2.2975323, 3.3157833)
+texture = ExtResource("2_qwvho")
 
 [node name="player" parent="." unique_id=1214809717 instance=ExtResource("2_sm05v")]
 position = Vector2(2127.6921, 952.1867)
@@ -84,6 +92,14 @@ position = Vector2(-2027.6724, -722.6694)
 direction = -1
 
 [node name="Notat" parent="." unique_id=1494679555 instance=ExtResource("4_7buf0")]
-position = Vector2(-350.97827, 282.24426)
+position = Vector2(-358.25244, 286.89664)
+
+[node name="Door" parent="." unique_id=1737742625 instance=ExtResource("5_gtr1u")]
+position = Vector2(1663.9644, -584.6488)
+scale = Vector2(0.49672472, 0.29757193)
+
+[node name="Laser" parent="." unique_id=1543614872 instance=ExtResource("7_7atcc")]
+position = Vector2(-554.6548, -198.50146)
+scale = Vector2(1.5900435, 1.5732338)
 
 [editable path="player"]
