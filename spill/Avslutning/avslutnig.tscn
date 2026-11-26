@@ -5,7 +5,10 @@
 [node name="avslutnig" type="Node2D" unique_id=930265331]
 
 [node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="." unique_id=331241013]
-offset_right = 40.0
-offset_bottom = 40.0
+offset_left = -74.00001
+offset_top = -148.0
+offset_right = 1846.0
+offset_bottom = 932.0
+scale = Vector2(0.68706733, 0.8755636)
 stream = ExtResource("1_0547i")
 autoplay = true
