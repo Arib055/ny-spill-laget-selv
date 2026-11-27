@@ -2,6 +2,7 @@
 extends Node2D
 
 @onready var video = $VideoStreamPlayer
+@onready var skip_button = $SkipLayer/Overlay/SkipButton
 @onready var menu = $MainMenu
 
 @onready var background = $MainMenu/Background
@@ -19,6 +20,7 @@ func _ready():
 	credits_screen.hide()
 
 	video.finished.connect(_on_video_finished)
+	skip_button.pressed.connect(_on_video_finished)
 
 	play_button.pressed.connect(_on_play_pressed)
 	credits_button.pressed.connect(_on_credits_pressed)
@@ -29,6 +31,7 @@ func _ready():
 
 func _on_video_finished():
 	video.hide()
+	skip_button.hide()
 	menu.show()
 
 	background.show()
